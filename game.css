@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    height:100%;
+    width: 100%;
+    display: flex;
+    /* text-align: center; */
+     /* text-align: center; */
+     align-items: center;
+     justify-content: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.shape{
+    display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+    
+    /* margin:10px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height:200px;
+    border: 1px solid black;
+    
+}
+#rectangle:hover{
+    background-color: red;
+
+}
+/* #rectangle{
+    width:200px;
+    height: 200px;
+} */
+#circule:hover{
+    background-color: yellow;
+}
+#rotate:hover{
+    background-color: blue;
+}
+#circule{
+   
+    border-radius: 50%;
+    /* width:200px;
+    height:200px; */
+}
+#rotate{
+    rotate:45deg;
+    margin-top: 50px;
+    width:200px;
+    height:200px;
+    /* translate: 10px 10px;
+    x axis par aage badhane  ke liye use kare x axis and y axis par */
+}
+/* #rota{
+    rotate:-45deg;
+} */
+ #rotate h2{
+    rotate:-45deg;
+ }
